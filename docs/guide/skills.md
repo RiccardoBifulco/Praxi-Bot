@@ -64,6 +64,12 @@ Invalid skill files are skipped with an issue noted, not fatal.
 Skills also feed the router: the keyword and embedding search of the decision
 ladder (K2) can suggest a skill for a request (see [Workflows](workflows.md)).
 
+## Managing shared skills through the API
+
+The local owner (not a paired device) can create, import, update and delete
+shared skills through the daemon API. See
+[Managing shared skills from the local app](skill-management-api.md).
+
 ## Choosing which skills a bot gets
 
 On a bot's profile, **Skills → Choose skills…** picks which shared and bundled

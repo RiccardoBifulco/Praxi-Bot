@@ -54,6 +54,7 @@ Notable additions in the `0.1.0` desktop, CLI, and evaluation surface:
 | Run something every morning | [Scheduled tasks](scheduled-tasks.md) |
 | Replay a recorded sequence of steps without a model | [Workflows](workflows.md) |
 | Teach a bot how to handle a tricky web page or app | [Skills](skills.md) |
+| Create, import, update or delete shared skills through the local API | [Managing shared skills](skill-management-api.md) |
 | Add external tool servers | [MCP servers](mcp-servers.md) |
 | Let another MCP agent use a selected Praxi bot | [Praxi as an MCP server](mcp-server.md) |
 | Pick a provider, use the Gemini free tier | [Providers and models](providers-and-models.md) |
