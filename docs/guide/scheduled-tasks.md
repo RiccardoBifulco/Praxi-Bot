@@ -65,6 +65,11 @@ loopback-only like the rest of the API, so reaching it from outside your machine
 needs a tunnel or reverse proxy you set up yourself. Webhook secrets are set
 through the API (`webhook_secret` on create or update); the CLI has no flag for it.
 
+Schedules can also fire on a file change (`file_watch`) or a new matching e-mail
+(`email`), and can run a deterministic precheck before starting a run. These are
+set through the API; see [Schedule triggers and deterministic
+prechecks](../schedule-triggers-prechecks.md).
+
 ## Missed runs
 
 If the daemon was stopped or the computer asleep when a schedule was due, the

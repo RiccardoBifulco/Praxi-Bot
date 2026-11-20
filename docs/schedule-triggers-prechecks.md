@@ -12,7 +12,7 @@ Example additions to an otherwise normal schedule body:
 {
   "trigger": {
     "kind": "file_watch",
-    "path": "/home/me/projects/invoices",
+    "path": "<watch-root>/invoices",
     "glob": "*.csv",
     "events": ["created", "modified"],
     "debounce_ms": 1000
