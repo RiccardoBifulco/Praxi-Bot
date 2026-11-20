@@ -2534,27 +2534,27 @@
       "alwaysTitle": "Immer aktiv, was du auch wählst",
       "levels": {
         "ask": {
-          "examples": {
-            "0": "Fragt vor dem Speichern oder Bearbeiten einer Datei",
-            "1": "Fragt vor dem Klicken oder Tippen für dich",
-            "2": "Fragt vor dem Ausführen eines Befehls"
-          },
+          "examples": [
+            "Fragt vor dem Speichern oder Bearbeiten einer Datei",
+            "Fragt vor dem Klicken oder Tippen für dich",
+            "Fragt vor dem Ausführen eines Befehls"
+          ],
           "pitch": "Fragt dich, bevor er etwas ändert. Gut, solange du ihn kennenlernst."
         },
         "auto": {
-          "examples": {
-            "0": "Bearbeitet und löscht gewöhnliche Dateien selbstständig",
-            "1": "Führt Befehle aus und sendet Nachrichten selbstständig",
-            "2": "Hält bei Zahlungen immer an"
-          },
+          "examples": [
+            "Bearbeitet und löscht gewöhnliche Dateien selbstständig",
+            "Führt Befehle aus und sendet Nachrichten selbstständig",
+            "Hält bei Zahlungen immer an"
+          ],
           "pitch": "Legt einfach los. Hält nur bei Zahlungen und einer kurzen Verbotsliste an."
         },
         "balanced": {
-          "examples": {
-            "0": "Liest Dateien und prüft deinen Bildschirm ohne Nachfrage",
-            "1": "Fragt vor dem Löschen oder Senden",
-            "2": "Zeigt dir zuerst, was er tun will"
-          },
+          "examples": [
+            "Liest Dateien und prüft deinen Bildschirm ohne Nachfrage",
+            "Fragt vor dem Löschen oder Senden",
+            "Zeigt dir zuerst, was er tun will"
+          ],
           "pitch": "Sieht sich selbstständig um, fragt aber, bevor er etwas ändert oder sendet."
         }
       },
