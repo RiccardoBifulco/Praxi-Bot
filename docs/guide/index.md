@@ -57,6 +57,7 @@ Notable additions in the `0.1.0` desktop, CLI, and evaluation surface:
 | Add external tool servers | [MCP servers](mcp-servers.md) |
 | Let another MCP agent use a selected Praxi bot | [Praxi as an MCP server](mcp-server.md) |
 | Pick a provider, use the Gemini free tier | [Providers and models](providers-and-models.md) |
+| Understand how the model picker names and ranks models | [Model picker metadata](model-catalog.md) |
 | Talk to your bots from your phone | [Telegram](telegram.md) |
 | Read, search, draft or send e-mails | [Email integration](email.md) |
 | Let a bot search the web and read pages without a browser | [Web tools](web.md) |
