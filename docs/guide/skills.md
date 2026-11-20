@@ -8,7 +8,8 @@ they are relevant.
 The bot always sees a compact **index** of available skills (name and one-line
 description). It loads a skill's full text only when needed, using the tools
 `skill_list`, `skill_read` and `skill_hint`. A bot can also **write** a skill
-(`skill_write`) to remember something it learned; those land in your skills folder.
+(`skill_write`) to remember something it learned; those are saved in that bot's own folder,
+`<data dir>/bots/<bot-id>/skills/`.
 
 ## Where skills live
 
@@ -16,9 +17,9 @@ Later layers override earlier ones by name:
 
 1. **Bundled** with Praxi (the repository's `skills/` folder).
 2. **Yours**: `<data dir>/skills/`.
-3. **Per bot**: `<data dir>/bots/<bot-id>/skills/` (supported by the skills
-   library; the daemon currently loads the `skills/` folder in your data
-   directory and saves what bots learn there).
+3. **Per bot**: `<data dir>/bots/<bot-id>/skills/`. `skill_write` saves what a
+   bot learns here, in the calling bot's own folder. The shared
+   `<data dir>/skills/` folder is the published/shared layer.
 
 Bundled skills today: `cookie-consent-banners`, `custom-dropdowns`,
 `date-pickers`, `github-basics`, `shadow-dom-and-iframes`,
@@ -49,7 +50,9 @@ Rules:
   letter or digit; no `..`; it is also the folder name and the override key.
 - `description`: one line, at most 200 characters. This is what the bot uses to
   decide whether to read the skill, so make it specific.
-- `version`: free text.
+- `version`: 1 to 64 characters of letters, digits, `.`, `-`, `_` and `+`; it
+  must start with a letter or digit, must not contain `..` and must not end
+  with `.`.
 - `when` (optional) makes the skill surface automatically. All three keys are
   lists: `domains` (such as `github.com`; subdomains match), `apps` (application
   names such as `SystemSettings`, case-insensitive, `.exe` ignored) and
