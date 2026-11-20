@@ -60,6 +60,7 @@ Notable additions in the `0.1.0` desktop, CLI, and evaluation surface:
 | Talk to your bots from your phone | [Telegram](telegram.md) |
 | Read, search, draft or send e-mails | [Email integration](email.md) |
 | Let a bot search the web and read pages without a browser | [Web tools](web.md) |
+| Set up knowledge embeddings (optional; knowledge search works without them) | [Set up knowledge embeddings](knowledge-embeddings.md) |
 | Look up a command or flag | [CLI reference](cli-reference.md) |
 | Understand what protects you | [Security model](security.md) |
 | Something does not work | [Troubleshooting](troubleshooting.md), [FAQ](faq.md) |
