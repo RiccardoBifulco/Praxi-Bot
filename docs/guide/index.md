@@ -59,6 +59,7 @@ Notable additions in the `0.1.0` desktop, CLI, and evaluation surface:
 | Pick a provider, use the Gemini free tier | [Providers and models](providers-and-models.md) |
 | Talk to your bots from your phone | [Telegram](telegram.md) |
 | Read, search, draft or send e-mails | [Email integration](email.md) |
+| Let a bot read Home Assistant entities and call services | [Home Assistant](home-assistant.md) |
 | Let a bot search the web and read pages without a browser | [Web tools](web.md) |
 | Look up a command or flag | [CLI reference](cli-reference.md) |
 | Understand what protects you | [Security model](security.md) |
