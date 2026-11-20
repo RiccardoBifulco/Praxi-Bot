@@ -63,6 +63,9 @@ A bot's profile names models by **role** (see
 
 A good pairing is a capable model as `executor` and a cheap one as `classifier`.
 
+To see how the model picker gets display names, recommendation rank and
+`model_details`, read [Model picker metadata](model-catalog.md).
+
 ## Gemini free tier
 
 Google offers a free API tier for Gemini through

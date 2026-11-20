@@ -37,7 +37,7 @@ Dates are `YYYY-MM-DD` (whole day) or RFC 3339 with an offset.
 
 ## Safety
 
-- The URL must be `https` (plain `http` only for `localhost`, e.g. a test server).
+- The URL must be `https` (plain `http` only for a loopback host: `localhost`, `::1` or `127.*`, e.g. a test server).
 - Redirects are never followed, so the password cannot be sent to another host.
 - A server-supplied link is used for deleting only if it stays inside the
   configured calendar.
